@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-*d@61j9e!ku+6)lj(5%e50)#kvee*u)hwb!rwz!+tqx9l0+&%g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-fgit24-djangorestframew-d03qwvidq3a.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'rest_framework',
     
     'profiles'
 ]
