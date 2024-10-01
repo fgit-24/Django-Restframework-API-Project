@@ -38,6 +38,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-fgit24-djangorestframew-d03qwvidq3a.ws.codeinstitute-ide.net']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-fgit24-djangorestframew-d03qwvidq3a.ws.codeinstitute-ide.net']
 
 # Application definition
 
@@ -52,7 +53,8 @@ INSTALLED_APPS = [
     'cloudinary',
     'rest_framework',
     
-    'profiles'
+    'profiles',
+    'posts',
 ]
 
 MIDDLEWARE = [
