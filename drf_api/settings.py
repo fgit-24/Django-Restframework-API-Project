@@ -62,9 +62,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-fgit24-djangorestframew-d03qwvidq3a.ws.codeinstitute-ide.net', 
-                'https://social-media-moments-1ce47a41709c.herokuapp.com',
-                'localhost']
+ALLOWED_HOSTS = [
+    'https://social-media-moments-1ce47a41709c.herokuapp.com',
+    'localhost',
+]
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-fgit24-djangorestframew-d03qwvidq3a.ws.codeinstitute-ide.net']
 
