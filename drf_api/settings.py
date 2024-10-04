@@ -63,7 +63,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    'social-media-moments-1ce47a41709c.herokuapp.com',
+    'drf-api-moments-f-72ce153a1bda.herokuapp.com',
     'localhost',
 ]
 
